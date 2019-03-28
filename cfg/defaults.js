@@ -42,7 +42,7 @@ function getDefaultModules() {
       },
       {
         test: /\.(png|jpg|gif|woff|woff2|eot|ttf|svg)$/,
-        loader: 'url-loader?limit=8192'
+        loader: 'url-loader?limit=8192&name=images/[name].[ext]'
       },
       {
         test: /\.json$/,
@@ -54,7 +54,7 @@ function getDefaultModules() {
       },
 	  {
         test: /\.(mp3)(\?.*)?$/,
-	  loader: 'url-loader'
+	  loader: 'url-loader?limit=8192&name=music/[name].[ext]'
 	  }
     ]
   };
@@ -62,7 +62,7 @@ function getDefaultModules() {
 
 module.exports = {
   srcPath: srcPath,
-  publicPath: '/assets/',
+  publicPath: './assets/',
   port: dfltPort,
   getDefaultModules: getDefaultModules
 };

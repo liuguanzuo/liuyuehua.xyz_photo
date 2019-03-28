@@ -21,12 +21,12 @@ export const MUSIC_LIST = [
     title: '告白气球',
     artist: '周杰伦',
     file: '../music/gbqq.mp3',
-    cover: '../musicImage/a.jpg'
+    cover: '../image/a.jpg'
   },{
   id: 2,
   title: '空氣中的试听与幻觉',
   artist: '苏打绿',
-    file: '../music/kqzdstyhj.mp3',
-    cover: '../musicImage/b.jpg'
+    file: 'music/kqzdstyhj.mp3',
+    cover: 'image/b.jpg'
 }
 ];
