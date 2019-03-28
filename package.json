@@ -18,13 +18,14 @@
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
     "release:patch": "npm version patch && npm publish && git push --follow-tags"
   },
+  "repository": "",
+  "keywords": [],
+  "author": "nnngu",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/nnngu/MusicPhoto"
   },
-  "keywords": [],
-  "author": "nnngu",
-  "license": "MIT",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.0.0",
@@ -37,7 +38,6 @@
     "babel-preset-stage-0": "^6.5.0",
     "bower-webpack-plugin": "^0.1.9",
     "chai": "^3.2.0",
-    "copy-webpack-plugin": "^5.0.2",
     "copyfiles": "^1.0.0",
     "css-loader": "^0.23.0",
     "eslint": "^3.0.0",

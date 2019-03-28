@@ -11,17 +11,21 @@ class ImgFigure extends React.Component {
   }
 
   handleClick(e) {
-
+debugger
     if (this.props.arrange.isCenter) {
+      if(this.props.data.desc=='letter'){
+        alert('淦')
+      return
+      }
       this.props.inverse();
+
     } else {
       this.props.center();
     }
-
-
     e.stopPropagation();
     e.preventDefault();
-  }
+    }
+
 
   render() {
     var styleObj = {};
