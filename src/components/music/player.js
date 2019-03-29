@@ -177,7 +177,7 @@ let Player = React.createClass({
 
       progress: 0,
       volume: 0,
-      isPlay: true,
+      isPlay: false,
       leftTime: ''
     }
   },

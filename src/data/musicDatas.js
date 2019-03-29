@@ -1,7 +1,3 @@
-import gbqq from '../music/gbqq.mp3'
-import kqzdstyhj from '../music/kqzdstyhj.mp3'
-import imageA from '../musicImage/a.jpg'
-import imageB from '../musicImage/b.jpg'
 export const MUSIC_LIST = [
   {
     id: 1,

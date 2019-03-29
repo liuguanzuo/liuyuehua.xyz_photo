@@ -14,7 +14,7 @@ class ImgFigure extends React.Component {
 debugger
     if (this.props.arrange.isCenter) {
       if(this.props.data.desc=='letter'){
-        w.location.href="http://letter.liuyuehua.xyz/"
+        window.location.href="http://letter.liuyuehua.xyz/"
       return
       }
       this.props.inverse();
